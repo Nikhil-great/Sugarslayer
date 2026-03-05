@@ -1,18 +1,20 @@
-# ⚔️ SugarSlayer
-**Slay your cravings. Reclaim your energy.**
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-SugarSlayer is an AI-powered tool built to help you break the sugar addiction cycle. By combining science-backed habits with real-time support, this app helps you stop the energy crashes and take back control of your health.
+# Run and deploy your AI Studio app
 
-### 🚀 Key Features
-* **Craving Crusher:** AI-guided tips to beat sudden urges.
-* **Streak Tracking:** Monitor your progress and metabolic health.
-* **Hidden Sugar Info:** Learn to identify hidden sugars in everyday foods.
-* **Mood Support:** Insights to handle the "sugar blues" during detox.
+This contains everything you need to run your app locally.
 
-### 🌐 How to Use
-1. Open the app in any Chrome or mobile browser.
-2. Follow the AI-guided steps to track and manage your cravings.
-3. Stay consistent and watch your energy levels rise.
+View your app in AI Studio: https://ai.studio/apps/986d895c-720c-4b14-8dd3-857623d9e0ad
 
----
-*Built with ❤️ and Google AI Studio to help the world quit sugar.*
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
